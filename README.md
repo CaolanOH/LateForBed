@@ -9,5 +9,5 @@ The requirements for this project were to develop a web browser game with:
 - Player health bar / timer functionality.
 - Player score.
 
-[Click here to try it!](https://lateforbed.herokuapp.com/)
+[Click here to try it! **The page is a bit slow, you might need to refresh**](https://lateforbed.herokuapp.com/)
 
