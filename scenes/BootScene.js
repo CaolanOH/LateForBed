@@ -37,20 +37,20 @@ class BootScene extends Phaser.Scene {
     this.load.image("arrows", "./assets/arrows.png");
 
     //Button images
-    this.load.image("startButton1", "/assets/StartButton01.png");
-    this.load.image("startButton2", "/assets/StartButton02.png");
-    this.load.image("optionsButton1", "/assets/OptionsButton01.png");
-    this.load.image("optionsButton2", "/assets/OptionsButton02.png");
-    this.load.image("playAgainButton1", "/assets/PlayAgainButton01.png");
-    this.load.image("playAgainButton2", "/assets/PlayAgainButton02.png");
-    this.load.image("helpbutton1", "/assets/HelpButton01.png");
-    this.load.image("helpbutton2", "/assets/HelpButton02.png");
-    this.load.image("backButton1", "/assets/backArrow01.png");
-    this.load.image("backButton2", "/assets/backArrow02.png");
-    this.load.image("soundButton01", "/assets/sound01.png");
-    this.load.image("soundButton02", "/assets/sound02.png");
-    this.load.image("homeButton1", "/assets/Home02.png");
-    this.load.image("homeButton2", "/assets/Home01.png");
+    this.load.image("startButton1", "./assets/StartButton01.png");
+    this.load.image("startButton2", "./assets/StartButton02.png");
+    this.load.image("optionsButton1", "./assets/OptionsButton01.png");
+    this.load.image("optionsButton2", "./assets/OptionsButton02.png");
+    this.load.image("playAgainButton1", "./assets/PlayAgainButton01.png");
+    this.load.image("playAgainButton2", "./assets/PlayAgainButton02.png");
+    this.load.image("helpbutton1", "./assets/HelpButton01.png");
+    this.load.image("helpbutton2", "./assets/HelpButton02.png");
+    this.load.image("backButton1", "./assets/backArrow01.png");
+    this.load.image("backButton2", "./assets/backArrow02.png");
+    this.load.image("soundButton01", "./assets/sound01.png");
+    this.load.image("soundButton02", "./assets/sound02.png");
+    this.load.image("homeButton1", "./assets/Home02.png");
+    this.load.image("homeButton2", "./assets/Home01.png");
   }
 
   loadSpriteSheets() {
