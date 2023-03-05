@@ -15,17 +15,17 @@ class BootScene extends Phaser.Scene {
 
   loadImages() {
     // load images
-    this.load.image("ground", "/assets/Ground2.png");
-    this.load.image("groundLvl2", "/assets/groundLvl02.png");
-    this.load.image("background", "/assets/background.png");
-    this.load.image("backgroundlvl2", "/assets/backgroundLvl02.png");
-    this.load.image("clouds", "/assets/Clouds.png");
-    this.load.image("clouds2", "/assets/cloudsLvl02.png");
-    this.load.image("hills1", "/assets/Hills01.png");
-    this.load.image("hills2", "/assets/Hills02.png");
-    this.load.image("hills1Lvl2", "/assets/hills01Lvl02.png");
-    this.load.image("hills2Lvl2", "/assets/hills02Lvl02.png");
-    this.load.image("title", "/assets/Title01.png");
+    this.load.image("ground", "assets/Ground2.png");
+    this.load.image("groundLvl2", "assets/groundLvl02.png");
+    this.load.image("background", "assets/background.png");
+    this.load.image("backgroundlvl2", "assets/backgroundLvl02.png");
+    this.load.image("clouds", "assets/Clouds.png");
+    this.load.image("clouds2", "assets/cloudsLvl02.png");
+    this.load.image("hills1", "assets/Hills01.png");
+    this.load.image("hills2", "assets/Hills02.png");
+    this.load.image("hills1Lvl2", "assets/hills01Lvl02.png");
+    this.load.image("hills2Lvl2", "assets/hills02Lvl02.png");
+    this.load.image("title", "assets/Title01.png");
     //        this.load.image('enemy', '/assets/enemy.png');
     //this.load.image('monster', '/assets/monster.png');
     this.load.image("help", "/assets/HELP.png");
