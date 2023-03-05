@@ -1,17 +1,19 @@
-const express      = require('express')
-const path         = require('path')
-const http         = require('http')
+const express = require("express");
+const path = require("path");
+const http = require("http");
 
-const port         = process.env.PORT || 9090;
-const app          = express()
+const port = process.env.PORT || 9090;
+const app = express();
 
-app.use(express.static('LateForBed'))
+app.use(express.static("LateForBed"));
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'LateForBed/index.html'))
-} )
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "LateForBed/index.html"));
+});
 
-app.set('port', port)
-const server = http.createServer(app)
+app.set("port", port);
+const server = http.createServer(app);
 
-server.listen(port, () => console.log(`*** Server is up and running on port ${port} ***`))
+server.listen(port, () =>
+  console.log(`*** Server is up and running on port ${port} ***`)
+);
